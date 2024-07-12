@@ -16,7 +16,7 @@ int solve() {
     while(n--) { 
      int x, y, z; cin >> x >> y >> z; 
              
-     if(y == 1 || z == 1) {
+     if(x + y + z >= 2) {
      	result++; 
      }    	
     }
